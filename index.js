@@ -1,13 +1,3 @@
-// const contacts = document.querySelectorAll(".contact");
-
-// contacts.forEach((btn) => {
-//     btn.addEventListener("click", (e) => {
-//         e.preventDefault();
-//         console.log(e)
-
-//     })
-// })
-
 const phone = document.querySelector("#phone");
 const whatsapp = document.querySelector("#whatsapp");
 const facebook = document.querySelector("#facebook");
