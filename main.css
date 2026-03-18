@@ -1,137 +1,133 @@
 * {
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-    font-family: "EB Garamond", serif;
-    /* outline: 3px solid red; */
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "EB Garamond", serif;
+  /* outline: 3px solid red; */
 }
 
 body {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
 }
 
-
-
 .container {
-    max-height: 100vh;
-    max-width: 391px;
-    width: 100%;
-    background-image: url("./photo/background.jpg");
-    background-repeat:no-repeat;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    position: relative;
+  max-width: 391px;
+  width: 100%;
+  background-image: url("./photo/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  position: relative;
 }
 
 .background-box {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    gap: 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
 }
 
 .first-box {
-   height: 180px; 
-   width: 80%;
-    padding: 15px;
-   background-color: #fff;
-   border-radius: 0 0 20px 20px;
-   box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.3);
-   display: flex;
-   justify-content: space-around;
+  height: 180px;
+  width: 80%;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 0 0 20px 20px;
+  box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: space-around;
 }
 
 .first-box img {
-    height: 60px;
-    width: 90PX;
-    margin: 10PX -15PX 0 -6PX;
-    mix-blend-mode: multiply;
+  height: 60px;
+  width: 90px;
+  margin: 10px -15px 0 -6px;
+  mix-blend-mode: multiply;
 }
 
 .first-box h3 {
-    font-size: 20px;
-    text-align: left;
-    font-weight: 900;
-    margin: 12px 5px 0 0;
+  font-size: 20px;
+  text-align: left;
+  font-weight: 900;
+  margin: 12px 5px 0 0;
 }
 
 .first-box a {
-    text-decoration: none;
-    color: #547993;
+  text-decoration: none;
+  color: #547993;
 }
 
 .sec-box {
-    height: 220px; 
-    width: 80%;
-    background-color: #547993;
-    border-radius: 20px;
-    box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.3);
+  height: 220px;
+  width: 80%;
+  background-color: #547993;
+  border-radius: 20px;
+  box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.3);
 }
 
 .name {
-    color: #fff;
-    text-align: center;
-    padding-top: 90px;
+  color: #fff;
+  text-align: center;
+  padding-top: 90px;
 }
 .name p {
-    margin-top: 3px;
-    font-size: 15px;
+  margin-top: 3px;
+  font-size: 15px;
 }
 
 .logo {
-    height: 145px;
-    width: 145px;
-    background-color: #fff;
-    box-shadow: 0px 10px 10px 5px rgba(0, 0, 0, 0.3);
-    border-radius: 50%;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    top: 115px;
+  height: 145px;
+  width: 145px;
+  background-color: #fff;
+  box-shadow: 0px 10px 10px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 115px;
 }
 
 .satishBabu {
-    height: 100%;
-    width: 100%;
-    background-image: url(./photo/MsatishBabu.png);
-    background-size: cover;
-    border-radius: 50%;
-    border: 3px solid #ffffff;
+  height: 100%;
+  width: 100%;
+  background-image: url(./photo/MsatishBabu.png);
+  background-size: cover;
+  border-radius: 50%;
+  border: 3px solid #ffffff;
 }
 
 .contacts {
-    height: 100vh;
-    width: 80%;
-    margin: 15px auto;
-    margin-bottom: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+  width: 80%;
+  margin: 15px auto;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
 .contact {
-    height: 40px;
-    width: 100%;
-    outline: 0;
-    border: 0;
-    border-radius: 10px;
-    background-color: #ffffff;
-    color: #547993;
-    text-align: start;
-    padding-left: 30px;
-    font-size: 18px;
-    font-weight: 600;
-    box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.3);
-    display: flex;
-    justify-content: start;
-    align-items: center;
+  height: 40px;
+  width: 100%;
+  outline: 0;
+  border: 0;
+  border-radius: 10px;
+  background-color: #ffffff;
+  color: #547993;
+  text-align: start;
+  padding-left: 30px;
+  font-size: 18px;
+  font-weight: 600;
+  box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: start;
+  align-items: center;
 }
 
 .contact span {
-    width: 80%;
-    text-align: center;
+  width: 80%;
+  text-align: center;
 }
